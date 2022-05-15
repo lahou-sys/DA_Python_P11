@@ -3,5 +3,5 @@ include
 lib
 .Python
 tests/
-.envrc
+.venv
 __pycache__
