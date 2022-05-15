@@ -1,7 +1,4 @@
 .gitignore
-bin
-include
-lib
 .Python
 tests/
 .venv
