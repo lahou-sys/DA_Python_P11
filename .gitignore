@@ -1,5 +1,8 @@
-.gitignore
+bin
+include
+lib
 .Python
 tests/
-.venv
+.envrc
 __pycache__
+.venv
