@@ -45,7 +45,7 @@ def test_correct_email_adress(client):
 	assert ("Welcome, " + email) in response.data.decode()
 
 
-def test_oudated_comp(client):
+def test_outdated_comp(client):
 	response = client.get('/book/Parissun/TOP-official')
 	assert "Something went wrong-please try again" in response.data.decode()
 	assert response.status_code == 200
